@@ -1,10 +1,8 @@
-Sure! Here’s a well-structured README.md for your token list repository that explains everything clearly. This will act as documentation for how the token list works, the expected token format, and how contributors can open PRs to add new tokens.
-
-Token List Repository
+# Token List Repository
 
 Welcome to the Loop Token List Repository. This repository maintains a curated list of tokens used across our platform. Below, you will find the token format, guidelines on how to submit a pull request (PR) to add your token, and details on how to use this list effectively.
 
-Table of Contents
+## Table of Contents
 
     1.	Token List Format
     2.	How to Add Your Token
@@ -12,7 +10,7 @@ Table of Contents
     4.	Usage Guidelines
     5.	Maintainers
 
-Token List Format
+### Token List Format
 
 Each token entry in the list follows the JSON format below. Ensure your token entry strictly follows this schema to avoid validation failures during review.
 
@@ -30,17 +28,17 @@ Each token entry in the list follows the JSON format below. Ensure your token en
 "coingeckoId": "your-token-id" // Optional field
 }
 
-Explanation of Fields
+### Explanation of Fields
 
-Field Type Description Required
-symbol String The token’s ticker symbol (e.g., ETH, BEE). Yes
-name String The full name of the token. Yes
-address String The token’s contract address on the blockchain. Must follow Ethereum-style 0x... format. Yes
-decimals Number Number of decimals the token supports (typically between 0 and 18). Yes
-chainId Number ID of the blockchain where the token resides (e.g., 1 for Ethereum, 56 for BNB Chain). Yes
-logoURI String A public URL to the token’s logo image. Must be PNG or SVG. Yes
-socials Object Links to the token’s social profiles (Twitter, Telegram, etc.). Optional
-coingeckoId String ID of the token on CoinGecko (for price tracking). Can be null if not listed. Optional
+| **Field**  | **Type** | **Description**                                                                                | **Required** |
+| ---------- | -------- | ---------------------------------------------------------------------------------------------- | ------------ |
+| `symbol`   | String   | The token's ticker symbol (e.g., `ETH`, `BEE`).                                                | Yes          |
+| `name`     | String   | The full name of the token.                                                                    | Yes          |
+| `address`  | String   | The token's **contract address** on the blockchain. Must follow Ethereum-style `0x...` format. | Yes          |
+| `decimals` | Number   | Number of decimals the token supports (typically between 0 and 18).                            | Yes          |
+| `chainId`  | Number   | ID of the blockchain where the token resides (e.g., `1` for Ethereum, `56` for BNB Chain).     | Yes          |
+| `logoURI`  | String   | A public URL to the token's logo image. Must be **PNG** or **SVG**.                            | Yes          |
+| `socials`  | Object   | Links to the token’s social profiles (Twitter, Telegram, etc.).                                | Optional     |
 
 How to Add Your Token
 
@@ -64,7 +62,7 @@ git push origin main
 
     6.	Open a Pull Request (PR) by visiting your forked repository on GitHub and clicking the “Compare & Pull Request” button.
 
-Submitting a Pull Request (PR)
+### Submitting a Pull Request (PR)
 
 When submitting a PR, ensure you follow these guidelines to avoid delays in approval:
 
@@ -74,7 +72,7 @@ When submitting a PR, ensure you follow these guidelines to avoid delays in appr
     4.	Your token logo should be 24x24 pixels or 32x32 pixels in size for optimal display.
     5.	Review your PR summary and provide a clear description of the token you’re adding.
 
-Usage Guidelines
+### Usage Guidelines
 
 The tokens.json file can be used to fetch token information in your frontend applications. Here’s a sample API request to retrieve the token list:
 
@@ -90,7 +88,7 @@ console.log(tokens);
 
 fetchTokenList();
 
-Token Validation
+### Token Validation
 
 We run manual and automated checks on the token list to ensure correctness. If your PR fails the validation, you will receive feedback on the changes needed.
 
@@ -101,17 +99,17 @@ Common Reasons for Rejection:
     •	Social media URLs that don’t work.
     •	Using a non-public URL for the token logo.
 
-Maintainers
+### Maintainers
 
 If you have any questions or need help, feel free to contact the repository maintainers:
 
     •	0xlancersT
 
-License
+### License
 
 This repository is licensed under the MIT License.
 
-Summary
+### Summary
 
 By following this guide, you’ll ensure a smooth token submission process. Please review your changes carefully before submitting a PR to avoid delays. Happy token listing!
 
