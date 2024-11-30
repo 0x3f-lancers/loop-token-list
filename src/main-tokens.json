@@ -1,0 +1,210 @@
+[
+  {
+    "symbol": "LOOP",
+    "name": "Loop Network",
+    "address": "LOOP",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": true,
+    "isToken": false,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://maroon-electoral-limpet-829.mypinata.cloud/ipfs/QmURrpBmAfzUyYztQDkBYSTHCYAbK9RxizLP1qRfb3qW9a",
+    "socials": {
+      "twitter": "https://x.com/LoopNetwork3",
+      "telegram": "https://t.me/loopnetwork"
+    }
+  },
+  {
+    "symbol": "WLOOP",
+    "name": "Wrapped LOOP",
+    "address": "0x3936D20a39eD4b0d44EaBfC91757B182f14A38d5",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://maroon-electoral-limpet-829.mypinata.cloud/ipfs/QmURrpBmAfzUyYztQDkBYSTHCYAbK9RxizLP1qRfb3qW9a",
+    "socials": {
+      "twitter": "https://x.com/LoopNetwork3",
+      "telegram": "https://t.me/loopnetwork"
+    }
+  },
+  {
+    "symbol": "Bee",
+    "name": "Busy bee",
+    "address": "0xF53D495fC33cb402D005F77C08c203A690C62b46",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://maroon-electoral-limpet-829.mypinata.cloud/ipfs/QmS2wV3ttXFCo47mw2dnpNW3MYZnSFQJeyVs3UXexGB6Z1",
+    "socials": {
+      "twitter": "https://x.com/",
+      "telegram": "https://t.me/busybeeloop"
+    }
+  },
+  {
+    "symbol": "SPHYNX",
+    "name": "Sphynx Labs",
+    "address": "0xa776f5b86cC520861F55a261515264E3bd86E72e",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/14461.png",
+    "socials": {
+      "twitter": "https://x.com/SphynxLabs",
+      "telegram": "https://t.me/sphynxlabs"
+    }
+  },
+  {
+    "symbol": "KYC",
+    "name": "KYCurity",
+    "address": "0x44b9e1C3431E777B446B3ac4A0ec5375a4D26E66",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://maroon-electoral-limpet-829.mypinata.cloud/ipfs/QmVhpGU4vp7oecwLArm8pKcvy75BcRYYjtzigoeofCpRcD",
+    "socials": {
+      "twitter": "https://x.com/KYCurity",
+      "telegram": "https://t.me/KYCurity"
+    }
+  },
+  {
+    "symbol": "ARC",
+    "name": "ARC",
+    "address": "0x6927568448672477F675D1EAcbfFB20C1E5B7EEC",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://beige-then-kite-202.mypinata.cloud/ipfs/QmVo1VZrjzdZDZh82A364TqixWaepjytpK41tHFcvwS7DW/ARC.png",
+    "socials": {
+      "twitter": "https://x.com/",
+      "telegram": "https://t.me/"
+    }
+  },
+  {
+    "symbol": "DOOG",
+    "name": "DOOG",
+    "address": "0xAd90e7Ad355fB1e19Df909b21B9117b0f56cB222",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://beige-then-kite-202.mypinata.cloud/ipfs/QmVo1VZrjzdZDZh82A364TqixWaepjytpK41tHFcvwS7DW/DOOG.png",
+    "socials": {
+      "twitter": "https://x.com/",
+      "telegram": "https://t.me/"
+    }
+  },
+  {
+    "symbol": "LSHIB",
+    "name": "Loop Shib",
+    "address": "0xA91b36a561305b7F3A26c890A8afE3c4F719E1AA",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 9,
+    "chainId": 15551,
+    "logoURI": "https://beige-then-kite-202.mypinata.cloud/ipfs/QmVo1VZrjzdZDZh82A364TqixWaepjytpK41tHFcvwS7DW/Loop%20Shib.png",
+    "socials": {
+      "twitter": "https://x.com/",
+      "telegram": "https://t.me/"
+    }
+  },
+  {
+    "symbol": "$44",
+    "name": "$44",
+    "address": "0x5c450BD14869cCf77C3D935A776B3b0B7792035A",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://beige-then-kite-202.mypinata.cloud/ipfs/QmVo1VZrjzdZDZh82A364TqixWaepjytpK41tHFcvwS7DW/%2444.png",
+    "socials": {
+      "twitter": "https://x.com/",
+      "telegram": "https://t.me/"
+    }
+  },
+  {
+    "symbol": "MAKO",
+    "name": "Mako Inu",
+    "address": "0x0260f0bF5362Bc5b1a14A5605Df1Cff6cA4FE72b",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://beige-then-kite-202.mypinata.cloud/ipfs/QmVo1VZrjzdZDZh82A364TqixWaepjytpK41tHFcvwS7DW/Mako%20Inu.png",
+    "socials": {
+      "twitter": "https://x.com/",
+      "telegram": "https://t.me/"
+    }
+  },
+  {
+    "symbol": "LMEME",
+    "name": "Loop Meme",
+    "address": "0x992044E352627C8b2C53A50cb23E5C7576Af7D45",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 8,
+    "chainId": 15551,
+    "logoURI": "https://beige-then-kite-202.mypinata.cloud/ipfs/QmVo1VZrjzdZDZh82A364TqixWaepjytpK41tHFcvwS7DW/LOOP%20MEME.png",
+    "socials": {
+      "twitter": "https://x.com/",
+      "telegram": "https://t.me/"
+    }
+  },
+  {
+    "symbol": "GIKO",
+    "name": "Giko Cat",
+    "address": "0x0C6E54f51be9A01C10d0c233806B44b0c5EE5bD3",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://beige-then-kite-202.mypinata.cloud/ipfs/QmVo1VZrjzdZDZh82A364TqixWaepjytpK41tHFcvwS7DW/Giko%20Cat.png",
+    "socials": {
+      "twitter": "https://x.com/",
+      "telegram": "https://t.me/"
+    }
+  },
+  {
+    "symbol": "ARTEM",
+    "name": "Psycho Artem",
+    "address": "0x98BB69ae5BAbF3e592763f35eDFa4955F15512A7",
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 8,
+    "chainId": 15551,
+    "logoURI": "https://beige-then-kite-202.mypinata.cloud/ipfs/QmVo1VZrjzdZDZh82A364TqixWaepjytpK41tHFcvwS7DW/Psycho%20Artem.png",
+    "socials": {
+      "twitter": "https://x.com/",
+      "telegram": "https://t.me/"
+    }
+  }
+]
