@@ -21,12 +21,16 @@ Each token entry in the list follows the JSON format below. Ensure your token en
   "address": "0x1234567890abcdef1234567890abcdef12345678",
   "decimals": 18,
   "chainId": 1,
+  "sellFeeBps": 0,
+  "buyFeeBps": 0,
+  "isNative": true,
+  "isToken": false,
   "logoURI": "https://path-to-your-logo/logo.png",
   "socials": {
     "twitter": "https://twitter.com/yourtoken",
     "telegram": "https://t.me/yourtoken"
   },
-  "coingeckoId": "your-token-id" // Optional field
+  "coingeckoId": "your-token-id"
 }
 ```
 
@@ -54,7 +58,7 @@ To list your token on our platform, follow these steps carefully:
    cd loop-token-list/src
    ```
 
-3. Add your token entry to the `tokens.json` file following the [Token List Format](#token-list-format).
+3. Add your token entry to the `main-tokens.json` file following the [Token List Format](#token-list-format).
 4. Commit your changes:
 
    ```bash
@@ -80,12 +84,28 @@ When submitting a PR, ensure you follow these guidelines to avoid delays in appr
 4. **Logo Requirements**: The token logo should be 24x24 pixels or 32x32 pixels in size for optimal display.
 5. **Review your PR summary**: Provide a clear description of the token you’re adding.
 
+### Alternative Method 1
+
+1. **Create an Issue**: If you’re unsure about the token format or need help, create an issue in this repository.
+
+2. **Request Token Addition**: Provide the token details in the issue description, and we’ll add it to the list for you.
+
+3. **Review and Approval**: Once your token is added, you can review the changes and suggest any modifications if needed.
+
+### Alternative Method 2
+
+1. **Contact the Maintainers**: If you’re unable to create a PR or issue, contact the repository maintainers directly through [telegram](https://t.me/busybeeloop)
+
+2. **Provide Token Details**: Share the token details with the maintainers, and they will add the token to the list for you.
+
+3. **Review and Approval**: You can review the changes and suggest any modifications if needed.
+
 ### Usage Guidelines
 
-The `tokens.json` file can be used to fetch token information in your frontend applications. Here’s a sample API request to retrieve the token list:
+The `main-tokens.json` file can be used to fetch token information in your frontend applications. Here’s a sample API request to retrieve the token list:
 
 ```bash
-curl -X GET https://raw.githubusercontent.com/0x3f-lancers/loop-token-list/main/src/tokens.json
+curl -X GET https://raw.githubusercontent.com/0x3f-lancers/loop-token-list/main/src/main-tokens.json
 ```
 
 You can also integrate the list in your frontend apps:
@@ -93,7 +113,7 @@ You can also integrate the list in your frontend apps:
 ```javascript
 async function fetchTokenList() {
   const response = await fetch(
-    "https://raw.githubusercontent.com/0x3f-lancers/loop-token-list/main/src/tokens.json"
+    "https://raw.githubusercontent.com/0x3f-lancers/loop-token-list/main/src/main-tokens.json"
   );
   const tokens = await response.json();
   console.log(tokens);
@@ -117,7 +137,8 @@ We run manual and automated checks on the token list to ensure correctness. If y
 
 If you have any questions or need help, feel free to contact the repository maintainers:
 
-- **0xlancersT**
+- [**0xlancersT**](https://lancers.technology)
+- [**BusyBee**](https://busybee.bond)
 
 ### License
 
