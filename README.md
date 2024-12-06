@@ -36,15 +36,20 @@ Each token entry in the list follows the JSON format below. Ensure your token en
 
 #### Explanation of Fields
 
-| **Field**  | **Type** | **Description**                                                                                | **Required** |
-| ---------- | -------- | ---------------------------------------------------------------------------------------------- | ------------ |
-| `symbol`   | String   | The token's ticker symbol (e.g., `ETH`, `BEE`).                                                | Yes          |
-| `name`     | String   | The full name of the token.                                                                    | Yes          |
-| `address`  | String   | The token's **contract address** on the blockchain. Must follow Ethereum-style `0x...` format. | Yes          |
-| `decimals` | Number   | Number of decimals the token supports (typically between 0 and 18).                            | Yes          |
-| `chainId`  | Number   | ID of the blockchain where the token resides (e.g., `1` for Ethereum, `56` for BNB Chain).     | Yes          |
-| `logoURI`  | String   | A public URL to the token's logo image. Must be **PNG** or **SVG**.                            | Yes          |
-| `socials`  | Object   | Links to the token’s social profiles (Twitter, Telegram, etc.).                                | Optional     |
+| **Field**     | **Type** | **Description**                                                                                | **Required** |
+| ------------- | -------- | ---------------------------------------------------------------------------------------------- | ------------ |
+| `symbol`      | String   | The token's ticker symbol (e.g., `ETH`, `BEE`).                                                | Yes          |
+| `name`        | String   | The full name of the token.                                                                    | Yes          |
+| `address`     | String   | The token's **contract address** on the blockchain. Must follow Ethereum-style `0x...` format. | Yes          |
+| `decimals`    | Number   | Number of decimals the token supports (typically between 0 and 18).                            | Yes          |
+| `chainId`     | Number   | ID of the blockchain where the token resides (e.g., `1` for Ethereum, `56` for BNB Chain).     | Yes          |
+| `sellFeeBps`  | Number   | The sell fee in basis points (bps).                                                            | No           |
+| `buyFeeBps`   | Number   | The buy fee in basis points (bps).                                                             | No           |
+| `isNative`    | Boolean  | Indicates if the token is a native token of the blockchain.                                    | No           |
+| `isToken`     | Boolean  | Indicates if the entry is a token.                                                             | No           |
+| `logoURI`     | String   | A public URL to the token's logo image. Must be **PNG** or **SVG**.                            | Yes          |
+| `socials`     | Object   | Links to the token’s social profiles (Twitter, Telegram, etc.).                                | Optional     |
+| `coingeckoId` | String   | The token's ID on CoinGecko.                                                                   | Optional     |
 
 ### How to Add Your Token
 
