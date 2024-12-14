@@ -16,22 +16,6 @@
     }
   },
   {
-    "symbol": "RUSH",
-    "name": "Rushfun",
-    "address": "0xf54fCdbF63D61781cC57E8536F505236Fa6960fA",
-    "sellFeeBps": 600,
-    "buyFeeBps": 600,
-    "isNative": false,
-    "isToken": true,
-    "decimals": 18,
-    "chainId": 15551,
-    "logoURI": "https://photos.pinksale.finance/file/pinksale-logo-upload/1734181890250-2f84d2cfa1619582ef171a2957863c0e.jpeg",
-    "socials": {
-      "twitter": "https://x.com/",
-      "telegram": "https://t.me/"
-    }
-  },
-  {
     "symbol": "WLOOP",
     "name": "Wrapped LOOP",
     "address": "0x3936D20a39eD4b0d44EaBfC91757B182f14A38d5",
@@ -218,6 +202,22 @@
     "decimals": 8,
     "chainId": 15551,
     "logoURI": "https://beige-then-kite-202.mypinata.cloud/ipfs/QmVo1VZrjzdZDZh82A364TqixWaepjytpK41tHFcvwS7DW/Psycho%20Artem.png",
+    "socials": {
+      "twitter": "https://x.com/",
+      "telegram": "https://t.me/"
+    }
+  },
+  {
+    "symbol": "RUSH",
+    "name": "Rushfun",
+    "address": "0xf54fCdbF63D61781cC57E8536F505236Fa6960fA",
+    "sellFeeBps": 600,
+    "buyFeeBps": 600,
+    "isNative": false,
+    "isToken": true,
+    "decimals": 18,
+    "chainId": 15551,
+    "logoURI": "https://photos.pinksale.finance/file/pinksale-logo-upload/1734181890250-2f84d2cfa1619582ef171a2957863c0e.jpeg",
     "socials": {
       "twitter": "https://x.com/",
       "telegram": "https://t.me/"
