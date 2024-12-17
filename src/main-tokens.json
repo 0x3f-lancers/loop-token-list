@@ -233,7 +233,7 @@
     "buyFeeBps": 1000,
     "isNative": false,
     "isToken": true,
-    "logoURI": "https://i.imgur.com/XKOb173.jpeg",
+    "logoURI": "https://raw.githubusercontent.com/0x3f-lancers/loop-token-list/refs/heads/main/src/logos/dragon-logo.jpg",
     "socials": {
       "twitter": "",
       "telegram": ""
