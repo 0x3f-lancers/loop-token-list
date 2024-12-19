@@ -238,21 +238,5 @@
       "twitter": "",
       "telegram": ""
     }
-  },
-  {
-    "name": "busy bee",
-    "symbol": "bee",
-    "address": "0xF53D495fC33cb402D005F77C08c203A690C62b46",
-    "decimals": 18,
-    "chainId": 15551,
-    "sellFeeBps": 0,
-    "buyFeeBps": 0,
-    "isNative": false,
-    "isToken": true,
-    "socials": {
-      "twitter": "",
-      "telegram": ""
-    },
-    "logoURI": "https://raw.githubusercontent.com/0x3f-lancers/loop-token-list/main/src/logos/busy-bee-logo.png"
   }
 ]
