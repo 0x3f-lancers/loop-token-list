@@ -238,5 +238,21 @@
       "twitter": "",
       "telegram": ""
     }
+  },
+  {
+    "name": "Bee Dex",
+    "symbol": "BEE",
+    "address": "0x514485389031013e0C07B1088A22b8dBe4A5E3C1",
+    "decimals": 18,
+    "chainId": 15551,
+    "sellFeeBps": 900,
+    "buyFeeBps": 900,
+    "isNative": false,
+    "isToken": true,
+    "socials": {
+      "twitter": "",
+      "telegram": ""
+    },
+    "logoURI": "https://raw.githubusercontent.com/0x3f-lancers/loop-token-list/main/src/logos/bee-dex-logo.png"
   }
 ]
