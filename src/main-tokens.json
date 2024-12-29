@@ -238,5 +238,21 @@
       "twitter": "",
       "telegram": ""
     }
+  },
+  {
+    "name": "MOMO",
+    "symbol": "MOMO",
+    "address": "0xF9AFfB579D360367cda443AC71151e4eEc3dA58c",
+    "decimals": 18,
+    "chainId": 15551,
+    "sellFeeBps": 0,
+    "buyFeeBps": 0,
+    "isNative": false,
+    "isToken": true,
+    "socials": {
+      "twitter": "https://x.com/momoonloop",
+      "telegram": "https://t.me/momoonloop"
+    },
+    "logoURI": "https://raw.githubusercontent.com/0x3f-lancers/loop-token-list/main/src/logos/momo-logo.png"
   }
 ]
